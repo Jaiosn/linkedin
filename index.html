@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linked in</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navleft">
+        <a href="#"><img src="/images/logo.png" class="logo" /></a>
+        <div class="search">
+          <img src="/images/search.png" alt="" />
+          <input type="text" placeholder="Search.." />
+        </div>
+      </div>
+      <div class="navcenter">
+        <ul>
+          <li>
+            <a href="" class="active">
+              <img src="/images/home.png" /><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href=""><img src="/images/network.png" />My network</a>
+          </li>
+          <li>
+            <a href=""><img src="/images/jobs.png" />Jobs</a>
+          </li>
+          <li>
+            <a href=""><img src="/images/message.png" />Messages</a>
+          </li>
+          <li>
+            <a href=""><img src="/images/notification.png" />Notification</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navright">
+        <div class="online" onclick="settingMenuToggle()">
+          <img src="/images/user-1.png" class="user" >
+        </div>
+      </div>
+      
+    </nav>
+    <div class="profile-drop ">
+      <div class="pro">
+        <img src="/images/user-1.png" width="50px">
+        <div>
+          <h3>John snow</h3>
+          <a href="/profile.html" style="color: #fff;">See your profile</a>
+        </div>
+      </div>
+      <hr>
+      <a href="" class="user-info">
+        <img src="/images/feedback.png" width="30px">
+        <p>Give Feedback</p>
+        <span>></span>
+      </a>
+      <a href="" class="user-info">
+        <img src="/images/help.png" width="30px">
+        <p>Help & Support</p>
+        <span>></span>
+      </a><a href="" class="user-info">
+        <img src="/images/setting.png" width="30px">
+
+        <p>Settings & Privacy</p>
+        <span>></span>
+      </a><a href="" class="user-info">
+        <img src="/images/help.png" width="30px">
+
+        <p>Display & Accessiblity </p>
+        <span>></span>
+      </a><a href="" class="user-info">
+        <img src="/images/logout.png" width="30px">
+        <p>Logout</p>
+        <span>></span>
+      </a>
+      
+       
+        
+      
+    </div>
+    <div class="container">
+      <div class="left">
+        <div class="left-sidebar">
+          <img src="/images/cover-pic.png" width="100%" />
+          <div class="profile">
+            <img src="/images/user-1.png" />
+            <h1>Jaison</h1>
+            <p>Web development and Youtuber</p>
+            <ul>
+              <li>profile viwes <span>53</span></li>
+              <li>Post viwes <span>53</span></li>
+              <li>profile viwes <span>53</span></li>
+            </ul>
+          </div>
+          <div class="left-links">
+            <a href=""><img src="/images/items.png" width="20px" /> My items</a>
+            <a href=""
+              ><img src="/images/premium.png" width="25px" /> Try premium</a
+            >
+          </div>
+        </div>
+        <div class="left-side-activity">
+          <h3>Activity</h3>
+          <a href=""
+            ><img src="/images/recent.png" width="20px" />Web development</a
+          >
+          <a href=""
+            ><img src="/images/recent.png" width="20px" />User Interface</a
+          >
+          <a href=""
+            ><img src="/images/recent.png" width="20px" />Online learning</a
+          >
+          <a href=""
+            ><img src="/images/recent.png" width="20px" />Code with jaison</a
+          >
+          <a href=""
+            ><img src="/images/recent.png" width="20px" />Learn and Deploy</a
+          >
+          <a href=""
+            ><img src="/images/recent.png" width="20px" />Full-stack
+            development</a
+          >
+          <h3>Groups</h3>
+          <a href=""
+            ><img src="/images/group.png" width="20px" />Web development</a
+          >
+          <a href=""><img src="/images/group.png" width="20px" />HTML & CSS</a>
+          <a href=""
+            ><img src="/images/group.png" width="20px" />Java-script learn
+            pool</a
+          >
+          <a href=""
+            ><img src="/images/group.png" width="20px" />Python with Flask</a
+          >
+          <h3>Hashtag</h3>
+
+          <a href=""
+            ><img src="/images/hashtag.png" width="20px" />Self Learning</a
+          >
+          <a href=""
+            ><img src="/images/hashtag.png" width="20px" />Web development</a
+          >
+          <a href=""
+            ><img src="/images/hashtag.png" width="20px" />Motivation</a
+          >
+          <div class="disc">
+            <a href="">Discover more</a>
+          </div>
+        </div>
+      
+        
+      </div>
+      <div class="center">
+        <div class="write-post">
+            <div class="write-box">
+                <img src="/images/user-1.png" >
+                <input type="text" placeholder="Write a post...">
+            </div>
+            <div class="write-icons">
+                <a href=""><img src="/images/photo.png" >Photo</a>
+                <a href=""><img src="/images/video.png" >Video</a>
+                <a href=""><img src="/images/event.png" >Event</a>
+                <a href="">Post</a>
+
+            </div>
+            <div class="sort">
+                <hr>
+                <div>
+                    <p>Sort by: <span>top <img src="/images/down-arrow.png" width="15px"></span> </p>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-profile">
+                <img src="/images/user-2.png" alt="">
+                <div class="info">
+                    <h2>John snow</h2>
+                    <p>Founder and CEO of Gelligo Group | Angel Investor</p>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p class="pro-deatail">Lorem ipsum dolor sit, amet 
+                consectetur adipisicing elit. Cumque at explicabo
+                 optio reprehenderit hic natus, tempore quae sapiente eius deleniti.
+            </p>
+            <img src="/images/post-image-1.png" class="post-img">
+            <div class="like-sec">
+                <div class="likes">
+                    <div class="like-imgs">
+                        <img src="/images/like.png" alt="">
+                        <img src="/images/clap.png" alt="">
+                        <img src="/images/love.png" alt="">
+    
+                    </div>
+                    <p>Abinav and 73 others</p>
+                </div>
+                <div class="comments">
+                    <p>22 comments &middot; 40 shares</p>
+                </div>
+            </div>
+            <div class="like-icons">
+                <div class="like-pro">
+                    <img src="/images/user-1.png" class="like-pic">
+                    <img src="/images/down-arrow.png" width="15px" height="10px">
+                </div>
+                <div>
+                    <img src="/images/thumbsup.png" width="24px">
+                    <p>Like</p>
+                </div>
+                <div>
+                    <img src="/images/comment.png" width="24px">
+                    <p>Comment</p>
+                </div><div>
+                    <img src="/images/share.png" width="24px">
+                    <p>Share</p>
+                </div><div>
+                    <img src="/images/send.png" width="24px">
+                    <p>Send</p>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="post-container">
+            <div class="post-profile">
+                <img src="/images/user-3.png" alt="">
+                <div class="info">
+                    <h2>Clarence George</h2>
+                    <p>Founder and CEO of Gelligo Group | Angel Investor</p>
+                    <small>1 hours ago</small>
+                </div>
+            </div>
+            <p class="pro-deatail">Lorem ipsum dolor sit, amet 
+                consectetur adipisicing elit. Cumque at explicabo
+                 optio reprehenderit hic natus, tempore quae sapiente eius deleniti.
+            </p>
+            <img src="/images/post-image-2.png" class="post-img">
+            <div class="like-sec">
+                <div class="likes">
+                    <div class="like-imgs">
+                        <img src="/images/like.png" alt="">
+                        <img src="/images/clap.png" alt="">
+                        <img src="/images/love.png" alt="">
+    
+                    </div>
+                    <p>Abinav and 733 others</p>
+                </div>
+                <div class="comments">
+                    <p>22 comments &middot; 40 shares</p>
+                </div>
+            </div>
+            <div class="like-icons">
+                <div class="like-pro">
+                    <img src="/images/user-1.png" class="like-pic">
+                    <img src="/images/down-arrow.png" width="15px" height="10px">
+                </div>
+                <div>
+                    <img src="/images/thumbsup.png" width="24px">
+                    <p>Like</p>
+                </div>
+                <div>
+                    <img src="/images/comment.png" width="24px">
+                    <p>Comment</p>
+                </div><div>
+                    <img src="/images/share.png" width="24px">
+                    <p>Share</p>
+                </div><div>
+                    <img src="/images/send.png" width="24px">
+                    <p>Send</p>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-profile">
+                <img src="/images/user-2.png" alt="">
+                <div class="info">
+                    <h2>William Carrie</h2>
+                    <p>Founder and CEO of Gelligo Group | Angel Investor</p>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p class="pro-deatail">Lorem ipsum dolor sit, amet 
+                consectetur adipisicing elit. Cumque at explicabo
+                 optio reprehenderit hic natus, tempore quae sapiente eius deleniti.
+            </p>
+            <img src="/images/post-image-3.png" class="post-img">
+            <div class="like-sec">
+                <div class="likes">
+                    <div class="like-imgs">
+                        <img src="/images/like.png" alt="">
+                        <img src="/images/clap.png" alt="">
+                        <img src="/images/love.png" alt="">
+    
+                    </div>
+                    <p>Abinav and 73 others</p>
+                </div>
+                <div class="comments">
+                    <p>22 comments &middot; 40 shares</p>
+                </div>
+            </div>
+            <div class="like-icons">
+                <div class="like-pro">
+                    <img src="/images/user-1.png" class="like-pic">
+                    <img src="/images/down-arrow.png" width="15px" height="10px">
+                </div>
+                <div>
+                    <img src="/images/thumbsup.png" width="24px">
+                    <p>Like</p>
+                </div>
+                <div>
+                    <img src="/images/comment.png" width="24px">
+                    <p>Comment</p>
+                </div><div>
+                    <img src="/images/share.png" width="24px">
+                    <p>Share</p>
+                </div><div>
+                    <img src="/images/send.png" width="24px">
+                    <p>Send</p>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="post-container">
+            <div class="post-profile">
+                <img src="/images/user-4.png" alt="">
+                <div class="info">
+                    <h2>John snow</h2>
+                    <p>Founder and CEO of Gelligo Group | Angel Investor</p>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p class="pro-deatail">Lorem ipsum dolor sit, amet 
+                consectetur adipisicing elit. Cumque at explicabo
+                 optio reprehenderit hic natus, tempore quae sapiente eius deleniti.
+            </p>
+            <img src="/images/post-image-4.png" class="post-img">
+            <div class="like-sec">
+                <div class="likes">
+                    <div class="like-imgs">
+                        <img src="/images/like.png" alt="">
+                        <img src="/images/clap.png" alt="">
+                        <img src="/images/love.png" alt="">
+    
+                    </div>
+                    <p>Abinav and 73 others</p>
+                </div>
+                <div class="comments">
+                    <p>22 comments &middot; 40 shares</p>
+                </div>
+            </div>
+            <div class="like-icons">
+                <div class="like-pro">
+                    <img src="/images/user-1.png" class="like-pic">
+                    <img src="/images/down-arrow.png" width="15px" height="10px">
+                </div>
+                <div>
+                    <img src="/images/thumbsup.png" width="24px">
+                    <p>Like</p>
+                </div>
+                <div>
+                    <img src="/images/comment.png" width="24px">
+                    <p>Comment</p>
+                </div><div>
+                    <img src="/images/share.png" width="24px">
+                    <p>Share</p>
+                </div><div>
+                    <img src="/images/send.png" width="24px">
+                    <p>Send</p>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="load-more">
+            <a href="" >Load more</a>
+        </div>
+        
+       
+
+        
+      </div>
+
+
+      <div class="right">
+        <div class="right-news-sec">
+          <div class="right-news">
+            <h2>Trending News</h2>
+            <img src="/images/more.png" width="23px" height="100%"/>
+          </div>
+          <h4>Hight demand for skilled manager</h4>
+          <p>1d ago -13,234 readers</p>
+          <h4>Careers growing horizontally too</h4>
+          <p>12d ago -134 readers</p>
+          <h4>Less work visa for US, more for UK</h4>
+          <p>13h ago -1234 readers</p>
+          <h4>More hiring = Higher confidence</h4>
+          <p>13h ago -234 readers</p>
+          <h4>Jaison is the world's</h4>
+          <p>1m ago -10,234 readers</p>
+          <div class="read">
+            <a href="">Read more</a>
+          </div>
+        </div>
+        <div class="ad-sec">
+          <p class="">ad &middot; </p>
+          <div class="ad">
+            <h4>Master the 5 principle of web design</h4>
+            <div class="ad-pics">
+              <img src="/images/user-1.png" width="80px" />
+              <img src="/images/mi-logo.png" alt="" />
+            </div>
+            <h4>Brand and Demand in Xiaomi</h4>
+            <a href=""> Learn more</a>
+          </div>
+        </div>
+        <div class="right-links">
+            <a href="">About</a>
+            <a href="">Accessiblity</a>
+            <a href="">Help center</a>
+            <a href="">Privacy policy</a>
+            <a href="">Advertising</a>
+            <a href="">Get the App</a>
+            <a href="">More</a>
+
+
+        </div>
+        <a href="" class="foot"><img src="/images/logo.png" width="18px">Linked In &copy; 2024.</a>
+        
+      </div>
+    </div>
+    <script src="/main.js"></script>
+
+  </body>
+</html>
